@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.HydrateMedsWear" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:fontFamily">@font/inter_variable</item>
+    </style>
+</resources>

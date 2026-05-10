@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.HydrateMeds" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:fontFamily">@font/inter_variable</item>
+    </style>
+</resources>

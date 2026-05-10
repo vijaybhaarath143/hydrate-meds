@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <receiver
+            android:name=".debug.DebugReminderTriggerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="dev.bhaarath.hydratemeds.debug.TRIGGER_REMINDER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".debug.DebugReminderCleanupReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="dev.bhaarath.hydratemeds.debug.CLEAR_DEBUG_REMINDERS" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".debug.DebugWaterLogRepairReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="dev.bhaarath.hydratemeds.debug.REPAIR_EARLY_WATER_LOGS" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
